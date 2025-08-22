@@ -80,15 +80,16 @@ export default function About() {
           variants={fadeUp}
           custom={1}
         >
-          Hey there! 👋 I’m{" "}
+          Hey there! 👋 I&apos;m{" "}
           <span className="text-cyan-400 font-semibold">Manoj</span>, a frontend
           developer who loves turning creative ideas into seamless web
           experiences. I specialize in building responsive and engaging
-          interfaces using <span className="text-white font-medium">React</span>
-          , <span className="text-white font-medium">Next.js</span>, and{" "}
-          <span className="text-white font-medium">Tailwind CSS</span>. I'm all
+          interfaces using <span className="text-white font-medium">React</span>,
+          <span className="text-white font-medium">Next.js</span>, and{" "}
+          <span className="text-white font-medium">Tailwind CSS</span>. I&apos;m all
           about clean code, sleek UI, and collaborating to bring ideas to life.
         </motion.p>
+
 
         {/* Highlights */}
         <motion.div
