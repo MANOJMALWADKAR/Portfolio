@@ -1,0 +1,25 @@
+.floating-blob {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: rgba(59, 130, 246, 0.1); /* blue-500 with transparency */
+  border-radius: 50%;
+  animation: float 8s ease-in-out infinite;
+  z-index: 0;
+  filter: blur(60px);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0) translateX(0); }
+  50% { transform: translateY(-30px) translateX(20px); }
+}
+
+@keyframes gradient-border {
+  0% { border-color: #3b82f6; }
+  50% { border-color: #06b6d4; }
+  100% { border-color: #3b82f6; }
+}
+
+.animate-gradient-border {
+  animation: gradient-border 2s linear infinite;
+}
